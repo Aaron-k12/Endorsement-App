@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&family=Happy+Monkey&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- Title -->
+        <title>Endorse A Colleague</title>
+        
+    </head>
+    <body>
+        <div class="container">
+            <img alt="logo" src="/assets/freddie.png">
+            <h1>Endorse a Colleague</h1>
+            <textarea id="endorse-el" placeholder="Write your endorsement here"></textarea>
+            <div class="input-name">
+                <input type="text" id="sender-el" placeholder="From">
+                <input type="text" id="receiver-el" placeholder="To">
+            </div>
+            <button id="publish-btn">Publish</button>
+            <p>- Endorsements -</p>
+            <ul id="endorsement-list"></ul>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
